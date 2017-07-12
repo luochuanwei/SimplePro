@@ -1,0 +1,5 @@
+E:\扒\MT.Test\MT.Utilitys\bin\Debug\MT.Utilitys.dll
+E:\扒\MT.Test\MT.Utilitys\bin\Debug\MT.Utilitys.pdb
+E:\扒\MT.Test\MT.Utilitys\obj\Debug\MT.Utilitys.dll
+E:\扒\MT.Test\MT.Utilitys\obj\Debug\MT.Utilitys.pdb
+E:\扒\MT.Test\MT.Utilitys\obj\Debug\MT.Utilitys.csprojResolveAssemblyReference.cache
