@@ -1,9 +1,0 @@
-E:\扒\MT.Test\MT.Model\bin\Debug\MT.Model.dll
-E:\扒\MT.Test\MT.Model\bin\Debug\MT.Model.pdb
-E:\扒\MT.Test\MT.Model\bin\Debug\MT.Utilitys.dll
-E:\扒\MT.Test\MT.Model\bin\Debug\Newtonsoft.Json.dll
-E:\扒\MT.Test\MT.Model\bin\Debug\MT.Utilitys.pdb
-E:\扒\MT.Test\MT.Model\bin\Debug\Newtonsoft.Json.xml
-E:\扒\MT.Test\MT.Model\obj\Debug\MT.Model.csprojResolveAssemblyReference.cache
-E:\扒\MT.Test\MT.Model\obj\Debug\MT.Model.dll
-E:\扒\MT.Test\MT.Model\obj\Debug\MT.Model.pdb

@@ -1,5 +1,0 @@
-E:\扒\MT.Test\MT.Utilitys\bin\Release\MT.Utilitys.dll
-E:\扒\MT.Test\MT.Utilitys\bin\Release\MT.Utilitys.pdb
-E:\扒\MT.Test\MT.Utilitys\obj\Release\MT.Utilitys.csprojResolveAssemblyReference.cache
-E:\扒\MT.Test\MT.Utilitys\obj\Release\MT.Utilitys.dll
-E:\扒\MT.Test\MT.Utilitys\obj\Release\MT.Utilitys.pdb
