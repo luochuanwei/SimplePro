@@ -14,7 +14,7 @@ namespace MT.Test.Controllers
         public ActionResult Index()
         {
             var client = new UserService.UserServiceClient();
-            var getuer = client.GetUser(new ParamForGetUser() {UserId = "1"});
+            var getuer = client.GetUser(new ParamForGetUser() {UserId = "2"});
             return View();
         }
     }
