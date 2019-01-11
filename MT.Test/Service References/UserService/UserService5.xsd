@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/MT.LQQ.Models.Param" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/MT.LQQ.Models.Param" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:3891/User/UserService.svc?xsd=xsd4" namespace="http://schemas.datacontract.org/2004/07/MT.LQQ.Models.Enum" />
+  <xs:import schemaLocation="http://localhost:3891/User/UserService.svc?xsd=xsd5" namespace="http://schemas.datacontract.org/2004/07/MT.Model.Model" />
+  <xs:complexType name="RequestDataBase">
+    <xs:sequence>
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/MT.LQQ.Models.Enum" minOccurs="0" name="FromType" type="q1:FromTypeEnum" />
+      <xs:element minOccurs="0" name="UserId" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="RequestDataBase" nillable="true" type="tns:RequestDataBase" />
+  <xs:complexType name="ResponseDataOfUserEntityRuxM_PW9B">
+    <xs:annotation>
+      <xs:appinfo>
+        <GenericType Name="ResponseDataOf{0}{#}" Namespace="http://schemas.datacontract.org/2004/07/MT.LQQ.Models.Param" xmlns="http://schemas.microsoft.com/2003/10/Serialization/">
+          <GenericParameter Name="UserEntity" Namespace="http://schemas.datacontract.org/2004/07/MT.Model.Model" />
+        </GenericType>
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Message" nillable="true" type="xs:string" />
+      <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/MT.LQQ.Models.Enum" minOccurs="0" name="ResultType" type="q2:ResultTypeEnum" />
+      <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/MT.Model.Model" minOccurs="0" name="Value" nillable="true" type="q3:UserEntity" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ResponseDataOfUserEntityRuxM_PW9B" nillable="true" type="tns:ResponseDataOfUserEntityRuxM_PW9B" />
+</xs:schema>
